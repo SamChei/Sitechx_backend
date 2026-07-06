@@ -1,0 +1,10 @@
+course1=input("Enter the Marks of the first course: ")
+print("First course marks is: ", course1)
+course2=input("Enter the Marks of the second course: ")
+print("Second course marks is: ", course2)
+course3=input("Enter the Marks of the third course: ")
+print("Third course marks is: ", course3)
+sum = int(course1) + int(course2) + int(course3)
+print("Total marks is: ", sum)
+average = sum / 3
+print("Average marks is: ", average)
